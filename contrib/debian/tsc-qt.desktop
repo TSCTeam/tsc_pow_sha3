@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Bitcoin Core
+Comment=Connect to the Tsc P2P Network
+Exec=tsc-qt %u
+Terminal=false
+Type=Application
+Icon=tsc128
+MimeType=x-scheme-handler/tsc;
+Categories=Office;Finance;

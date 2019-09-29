@@ -1,0 +1,29 @@
+/*-------------------------------------------- 
+Tool Button Black CSS
+--------------------------------------------*/
+QToolButton {
+    color: rgba(255, 255, 255, 100%);
+    background: #1775ff;
+    border: 0px solid transparent;
+    border-radius: 0px;
+    padding: 6px 30px 6px 6px;
+    text-align: right;
+
+}
+QToolButton:pressed, QToolButton:hover:pressed, QToolButton:checked {
+    color: rgba(255, 255, 255, 100%);
+    background: #1775ff;
+    background-image: url(":/styles/app-icons/toolbutton_right_arrow");
+    background-position: center right;
+    background-repeat: no-repeat;
+
+}
+QToolButton:hover:!checked {
+    color: rgba(255, 255, 255, 100%);
+    background: #1775ff;
+
+}
+QToolButton:disabled {
+    color: rgba(191, 191, 191, 100%);
+    background: rgba(237, 237, 237, 100%);
+}

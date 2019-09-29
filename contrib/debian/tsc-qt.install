@@ -1,0 +1,6 @@
+usr/local/bin/tsc-qt usr/bin
+share/pixmaps/tsc32.xpm usr/share/pixmaps
+share/pixmaps/tsc16.xpm usr/share/pixmaps
+share/pixmaps/tsc128.png usr/share/pixmaps
+debian/tsc-qt.desktop usr/share/applications
+debian/tsc-qt.protocol usr/share/kde4/services/
